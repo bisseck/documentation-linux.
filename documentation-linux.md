@@ -84,3 +84,29 @@
    7) ### diff (différence entre deux fichiers, utiles pour chercher les modifications)
 
       diff fishier1 fichier2
+
+## LES COMMANDES D'IMPRESSION ET DE CONVERSION
+
+   1) ### lp (la commande d'impression sur les systèmes Unix Système V)
+   2) ### lpr (la commande d'impression sur les systèmes BSD et Linux)
+        lpr fichier
+        
+        
+        echo $PRINTER
+
+
+   3) ### lpc status (affiche l'état de la file d'attente)
+   4) ### lpq (affiche les travaux d'impression et leur numéro)
+
+
+   5) ### lprm (supprime un travail d'impression avec son numéro comme argument)
+
+
+   6) ### gv ("ghostview" permet de visualiser des fichiers POST SCRIPT)
+
+
+      gv fichier.ps
+      
+   5) ### a2ps (convertit les fichiers ASCII en POST SCRIPT)
+       a2ps -4 fichier -P fichier-post-script
+
